@@ -7,7 +7,7 @@
 
 
 def remove_punctuation(st):
-    punctuation = '!?:/;[].'
+    punctuation = '!?:/;.$ % # * &'
 
     result = ''
     for i in st:
